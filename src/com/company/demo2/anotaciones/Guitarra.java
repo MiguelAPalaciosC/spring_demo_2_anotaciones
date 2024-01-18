@@ -2,7 +2,7 @@ package com.company.demo2.anotaciones;
 
 import org.springframework.stereotype.Component;
 
-@Component("miGuitarra")
+@Component
 public class Guitarra implements InstrumentoMusical {
 
 	@Override
