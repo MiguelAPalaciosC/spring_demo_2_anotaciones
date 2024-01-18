@@ -12,6 +12,7 @@ public class DemoAnotaciones {
 		InstrumentoMusical instrumento = context.getBean("guitarra", InstrumentoMusical.class);
 		
 		System.out.println(instrumento.obtenerSonido());
+		System.out.println(instrumento.obtenerAfinacion());
 		
 		context.close();
 	}
